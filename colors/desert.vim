@@ -34,6 +34,8 @@ hi Visual       gui=none guifg=khaki guibg=olivedrab
 hi WarningMsg   guifg=salmon
 hi MatchParen guibg=grey30 guifg=#dfffdf
 
+hi clear SignColumn
+
 " syntax highlighting groups
 hi Comment      guifg=SkyBlue
 hi Constant     guifg=#ffa0a0
