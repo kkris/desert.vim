@@ -11,27 +11,12 @@
 " :he cterm-colors
 
 set background=dark
-if version > 580
-    " no guarantees for version 5.8 and below, but this makes it stop
-    " complaining
-    hi clear
-    if exists("syntax_on")
-        syntax reset
-    endif
-endif
 let g:colors_name="desert"
 
 hi Normal       guifg=White guibg=grey20
 
 " highlight groups
 hi Cursor       guibg=indianred guifg=khaki
-"hi CursorIM
-"hi Directory
-"hi DiffAdd
-"hi DiffChange
-"hi DiffDelete
-"hi DiffText
-"hi ErrorMsg
 hi VertSplit    guibg=#c2bfa5 guifg=grey50 gui=none
 hi Folded       guibg=grey30 guifg=orange
 hi FoldColumn   guibg=grey14 guifg=tan
@@ -47,12 +32,7 @@ hi StatusLine   guibg=grey17 guifg=grey90 gui=none
 hi StatusLineNC guibg=grey17 guifg=grey40 gui=none
 hi Title        guifg=indianred
 hi Visual       gui=none guifg=khaki guibg=olivedrab
-"hi VisualNOS
 hi WarningMsg   guifg=salmon
-"hi WildMenu
-"hi Menu
-"hi Scrollbar
-"hi Tooltip
 hi MatchParen guibg=grey30 guifg=#dfffdf
 
 " syntax highlighting groups
@@ -64,9 +44,7 @@ hi Statement    guifg=#ffd797
 hi PreProc      guifg=indianred
 hi Type         guifg=#e9b96e
 hi Special      guifg=navajowhite
-"hi Underlined
 hi Ignore       guifg=grey40
-"hi Error
 hi Todo         guifg=orangered guibg=yellow2
 
 " color terminal definitions
