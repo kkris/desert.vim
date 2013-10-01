@@ -25,7 +25,7 @@ hi ModeMsg      guifg=goldenrod
 hi MoreMsg      guifg=SeaGreen
 hi NonText      guifg=LightBlue guibg=grey30
 hi Question     guifg=springgreen
-hi Search       guibg=grey30 guifg=#dfffdf
+"hi Search       guibg=grey30 guifg=#dfffdf
 hi SpecialKey   guifg=yellowgreen
 hi StatusLine   guibg=grey17 guifg=grey90 gui=none
 hi StatusLineNC guibg=grey17 guifg=grey40 gui=none
